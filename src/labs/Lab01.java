@@ -8,7 +8,7 @@ public class Lab01 {
 		
 		//problem01();
 		//problem02();
-		problem03();
+		//problem03();
 		problem04();
 		
 	}
@@ -67,16 +67,26 @@ public class Lab01 {
 	
 	public static void problem04() {
 		boolean isZero = false;
+		int max = Integer.MIN_VALUE; 
+		int min = Integer.MAX_VALUE;
 		while (!isZero) {
 			Scanner inKey = new Scanner(System.in);
 			System.out.print("Enter an integer: ");
 			int input = inKey.nextInt();
 			
-			if (input = 0){
-				
-				
+			
+			
+			if (input == 0){
+				isZero = true;
+				break;
 			}
+			
+			max = Math.max(max, input);
+			min = Math.min(min, input);
 		}
+		System.out.println("Max = " + max);
+		System.out.println("Min = " + min);
+		
 		
 	}
 	
