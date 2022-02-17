@@ -6,9 +6,9 @@ public class Lab01 {
 
 	public static void main(String[] args) {
 		
-		//problem01();
-		//problem02();
-		//problem03();
+		problem01();
+		problem02();
+		problem03();
 		problem04();
 		
 	}
