@@ -17,14 +17,14 @@ public class Lab01 {
 	
 	public static void problem01() {
 		
-		Scanner inKey = new Scanner(System.in);
-		System.out.print("Enter a positive integer: ");
-		int input = inKey.nextInt();
-		System.out.print("Enter another positive integer: ");
-		int input2 = inKey.nextInt();
+		Scanner inKey = new Scanner(System.in); //scanner
+		System.out.print("Enter a positive integer: "); //ask for user to enter positive int 
+		int input = inKey.nextInt(); //collect int and store in input
+		System.out.print("Enter another positive integer: "); //ask for user to enter 2nd int
+		int input2 = inKey.nextInt();//collect int and store in input2 
 		
-		double num1 = Math.pow(input, input2);
-		System.out.println(input + "^" + input2 + " = " + num1 + "\n");
+		double num1 = Math.pow(input, input2); //take the first int and calculate it to the power of the second int
+		System.out.println(input + "^" + input2 + " = " + num1 + "\n"); //print the result
 	}
 	
 	
@@ -32,12 +32,12 @@ public class Lab01 {
 	
 	public static void problem02() {
 		
-		Scanner inKey = new Scanner(System.in);
-		System.out.print("Enter a positive integer: ");
-		int input = inKey.nextInt();
+		Scanner inKey = new Scanner(System.in); //scanner
+		System.out.print("Enter a positive integer: ");// ask for int
+		int input = inKey.nextInt();// store int in inpute
 		
-		double num1 = Math.sqrt(input);
-		System.out.println("the square root of " + input + " is " + num1 + "\n");
+		double num1 = Math.sqrt(input); //fint square root of input
+		System.out.println("the square root of " + input + " is " + num1 + "\n"); //print the result
 		
 		
 		
